@@ -2,13 +2,18 @@
 int main(void)
 {
 int age;
-char name [100];
+char fname [100];
+char sname [100];
 
-printf("Enter your name: ");
+printf("Enter your first name: ");
 
-scanf("%s", name);
+scanf("%s", fname);
 
-printf("My name is %s\n", name); 
+printf("Enter your second name: ");
+
+scanf("%s", sname);
+
+printf("My name is %s %s\n", fname, sname); 
 
 printf("Enter your age: ");
 scanf("%d", &age);
